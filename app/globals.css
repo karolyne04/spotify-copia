@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -29,5 +29,28 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+} */
+body {
+  background-color: #577D86 ;
+}
+@media screen and (max-width : 1015px) {
+  .offer__list-item {
+      grid-template-columns:  1fr 1fr;
+      
+  }
+  
+}
+@media (max-width: 768px) {
+  body {
+      flex-direction: column;
+  }
+
+  .sidebar {
+      width: 100%;
+  }
+
+  .header-navigation {
+      width: 100%;
   }
 }
